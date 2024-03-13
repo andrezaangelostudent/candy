@@ -1,0 +1,110 @@
+/* change the margin and the padding for all the page */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* change the width, height and backgroung color and align the content of everything that is inside the nav */
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(243, 65, 14);
+    text-align: center;
+
+  }
+
+
+  /*change the font, font size and align the content of the h1 */
+h1 {
+    font-family: 'Koulen', sans-serif;
+    font-size: 90px;
+    text-align:center;
+}
+
+  /*change the font, font size and align the content of the class kinder1 */
+  .kinder1,  p {
+      font-family: 'Bebas Neue', 'Cookie', 'Great Vibes', 'Josefin Sans', sans-serif;
+      font-size: 35px;
+      text-align: center;
+  }
+
+    /*align the content of the figure */
+  figure {
+    text-align: center;
+  }
+
+    /*change the font, font size, align the content, change color of the class company*/
+  .company {
+    font-family:'Josefin Slab', serif;
+      font-size: 30px;
+      text-align: center;
+      color: rgb(8, 8, 8);
+      background: rgb(243,65,14);
+      background: linear-gradient(90deg, rgba(243,65,14,1) 0%, rgba(175,245,236,1) 100%);
+
+  }
+
+   /*change the font, font size, align the content, change color of the h2*/
+  h2 {
+    font-family: 'Koulen', sans-serif;
+    font-size: 50px;
+    text-align:center;
+    color: white;
+    
+}
+
+ /*change the background color, align the content, change the font, change color and change the font size of the footer content*/
+footer {
+    background-color:  rgb(243, 65, 14);
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+    color:white;
+    font-size: 15px;
+}
+
+ /*change the font, color and change the font size of the label*/
+label {
+    font-family: 'Josefin Slab', serif;
+    color:white;
+    font-size: 25px;
+
+}
+
+
+/* change the font, font size and color of the input fields */
+input[type="text"],
+input[type="tel"] {
+    font-family: 'Josefin Slab', serif; 
+    font-size: 20px;
+    color:rgb(10, 10, 10); 
+}
+
+/*style the submit button changing the font, color, background color, padding, border and font size */
+input[type="submit"] {
+    font-family: 'Josefin Slab', serif; /* Change the font family */
+    color: rgb(15, 15, 15); /* Change the text color */
+    background-color: white; /* Change the background color */
+    padding: 10px 20px; /* Add padding */
+    border: none; /* Remove the border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    font-size: 18px;
+}
+
+/*create a hover effect so when the user hover the mouse on the image it comes bigger */
+.kinder1:hover {
+    transform: scale(1.03); 
+}
+
+/* change the image format so it gets in circle format */
+.history {
+    border-radius: 50%;
+}
+
+  /*change the font, font size, align the content, change color of the h3*/
+  h3 {
+    font-family: 'Koulen', sans-serif;
+    font-size: 50px;
+    text-align:center;
+    color:rgb(243, 65, 14);
+    
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en"> <!--English language-->
+    <head>
+    <meta charset="UTF-8"> <!-- Unicode Transformation Format - 8 bits-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--control the layout and scaling of the viewport on mobile devices -->
+    <link rel="stylesheet" href="styles.css"> <!--Link to css-->
+    <title>Kinder Bueno</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cookie&family=Great+Vibes&family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap" rel="stylesheet">
+
+
+    <body>
+        <!--create a container with class to style the nav content separetely -->
+        <nav class="container">
+            <br>
+            <img src="assets/Logo.png" alt="Ferrero"> <!--image-->
+        </nav>
+        <br><br><br><br><br> <!--Space between text-->
+
+        <h1> Kinder Bueno </h1> <!--Heading-->
+
+<figure> 
+<img class="kinder1" src="assets/Kinder1.png" alt="kinder bueno" width="500" height="500">  <!--image and an alternative text description of the image-->
+<p>Kinder Bueno is definately the best chocolate ever in my opinion. </p> <!--text-->
+</figure>
+<br><br>
+
+<figure>
+<img src="assets/Kinder2.png" alt="kinder bueno" width="500" height="500"> <!--image and an alternative text description of the image-->
+<p>This chocolate combines Smooth Chocolate + Creamy Hazelnut + Crispy Wafer</p>  <!--text-->
+</figure>
+<br><br>
+
+<figure>
+<img class="kinder1" src="assets/Kinder3.png" alt="kinder bueno mini" width="500" height="500"> <!--image and an alternative text description of the image-->
+<br><br><br>
+<p>This is the mini version of the Kinder Bueno. <br> I prefer the regular size because the small one is too small. <br> But is terms of flavour is exactly the same </p>  <!--text-->
+</figure> 
+<br><br>
+
+<figure>
+<img src="assets/Kinder4.png" alt="kinder bueno mini" width="500" height="500"> <!--image and an alternative text description of the image-->
+<p>Kinder Bueno is a unique chocolatey and hazelnut cream candy bar with <br> a taste experience that defies expectation. <br>
+
+    Beneath a blanket of smooth milk chocolate lies a thin, <br> crispy wafer filled with a creamy hazelnut filling, <br> all topped with a delicate, dark chocolate drizzle.
+ </p>  <!--text-->
+</figure>
+<br><br><br><br>
+
+
+<figure>
+    <img src="assets/melted.avif" alt="melted chocolate" width="500" height="500"> <!--image and an alternative text description of the image-->
+</figure>
+<p class="company"> <br> <strong>Ingredients:</strong> Milk chocolate (sugar, cocoa butter, cocoa mass, skim milk powder, <br> anhydrous milk fat, soy and/or sunflower lecithin, vanillin), Sugar,<br> Modified palm oil, Wheat flour, Hazelnuts, Skim milk powder, Milk powder,<br> Dark chocolate (sugar, cocoa mass, cocoa butter, soy and/or sunflower lecithin,<br> vanillin), Cocoa powder, Soy and/or sunflower lecithin, Sodium bicarbonate, <br> Salt, Vanillin. Contains: Milk, Hazelnuts, Wheat, Soy.<br><br></p> <!--text-->
+<br><br><br>
+
+<figure>
+    <h3> Nutritional Information </h3> <!--Heading-->
+    <img src="assets/nutritional.webp" alt="nutritional" width="500" height="500"> <!--image and an alternative text description of the image-->
+</figure>
+<br><br><br>
+
+
+ <figure>
+<img class="history" src="assets/Kinder5.png" alt="kinder history" width="500" height="500"> <!--image and an alternative text description of the image-->
+<br><br><br>
+<p>Kinder Brand was created in 1968 by Michele Ferrero <br> at the heart of a small Italian town named Alba.</p>  <!--text-->
+</figure>
+<br><br><br><br><br>        
+    
+    <p class="company"><br>The KINDER™ brand is the second largest chocolate brand in the world.<br><br><br> <!--text-->
+        FERRERO CANADA LTD. <br>
+        1 Ferrero Boulevard <br>
+        Brantford, ON  N3V 1G3 <br>
+        TEL. 001 519 756 6205 <br>
+        FAX 001 519 756 7799 <br> <br> </p>
+        <br><br><br><br><br><br>
+
+        <footer>
+        <br><br>
+    <h2> Contact us: </h2> <!--Heading-->
+    <br><br><br><br>
+        
+    <!--Create different ids to separate each field in one container + add some text-->
+    <form>
+    <label for="name"> Name: </label> <!-- name of the field -->
+            <input type="text" name="name" id="name"> <!-- the field -->
+            <br><br>
+
+            <label for="email"> Email: </label> <!-- name of the field -->
+            <input type="text" name="email" id="email"> <!-- the field -->
+            <br><br>
+        
+            <label for="telephonenumber">Telephone Number:</label> <!--Name of the field-->
+            <input type="tel" id="telephonenumber"  name="telephonenumber" placeholder="(XXX) XXX-XXXX" pattern="^\(\d{3}\) \d{3}-\d{4}$"> <!--determinate a number field, give a hint on what the user should type and specify the format-->
+            <br><br> <!--double space-->
+
+            <label for="message"> Message: </label> <!-- name of the field -->
+            <input type="text" name="message" id="message"> <!-- the field -->
+            <br><br> <!--double space-->
+
+            <br> <br>
+        <input type="submit" value="Submit" onclick="messageUser()" > <!--submit button + link to js-->
+        </form>
+         <br><br><br><br> 
+ 
+         <!--create a js code so when the user press submit an alert will be displayed with a message-->
+         <script>
+         function messageUser(){
+         alert ("Thank you for your message!"); // message that will be displayed
+     }
+         </script>
+
+    <!--references-->
+    <br><br><br> <!--Space between text-->
+    &#169; | Image reprinted from: https://www.kinder.com/us/en/our-story
+    <br><br> <!--Space between text-->
+    &#169; | Image reprinted from: https://www.kinder.com/us/en/bueno-us-landing-page
+    <br><br> <!--Space between text--> 
+    &#169; | Image reprinted from: https://www.walmart.ca/en/ip/KINDER-BUENO-Mini-Milk-Chocolate-and-Hazelnut-Cream-Candy-Bars/6000201692015
+    <br><br> <!--Space between text--> 
+    &#169; | Image reprinted from:https://cataldi.ca/products/kinder-bueno-43g
+    <br><br> <!--Space between text--> 
+    &#169; |Image reprinted from:https://www.walmart.ca/en/ip/KINDER-BUENO-Milk-Chocolate-and-Hazelnut-Cream-Candy-Bars/6000189677377
+    <br><br><br> 
+</footer>
+
+</body>
+</html>
